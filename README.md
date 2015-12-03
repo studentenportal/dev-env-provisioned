@@ -40,6 +40,7 @@ Setup Machine
 
     ```bash
     vagrant ssh
+    ```
 
 Setup Environment
 -----------------
@@ -50,6 +51,7 @@ Setup Environment
     ```
     python manage.py runserver 0.0.0.0:8000
     ```
+    
 3.  Access the site via `localhost:8000`
 
 Install Test Data
@@ -61,6 +63,7 @@ It is however far easier to install provided test data (fixtures).
 Because the data of the registered users is confidential, we cannot provide the real data publicly. If you want to mirror the real data of the `studentenportal` simply contact us.
 
 Loading fixtures into the database is pretty simple:
+
 ```
 python manage.py loaddata /path/to/fixture.json
 ```
