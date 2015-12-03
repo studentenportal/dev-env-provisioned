@@ -54,6 +54,7 @@ Setup Environment
     
 3. Access the site via `localhost:8000`
 4. Install missing SASS packages `sudo apt-get install ruby ruby-dev` and `sudo gem install compass`
+5. Update packages `sudo pip install -r requirements.txt`
 
 Install Test Data
 -----------------
