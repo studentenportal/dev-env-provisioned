@@ -34,7 +34,7 @@ Setup Machine
     ```bash
     vagrant up
     ```
-    Vagrant will automatically download the image and sync the `web` folder with `/srv/www
+    Vagrant will automatically download the image and sync the `web` folder with `/srv/www`
 
 3.  Connect to the VM via SSH and setup the environment:
 
@@ -52,7 +52,8 @@ Setup Environment
     python manage.py runserver 0.0.0.0:8000
     ```
     
-3.  Access the site via `localhost:8000`
+3. Access the site via `localhost:8000`
+4. Install missing SASS packages `sudo apt-get install ruby ruby-dev` and `sudo gem install compass`
 
 Install Test Data
 -----------------
